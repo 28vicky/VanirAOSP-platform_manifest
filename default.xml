@@ -114,7 +114,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
-  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
+  <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" revision="cm-11.0" remote="github" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
@@ -136,8 +136,7 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
-  <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44"  />
+  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" revision="cm-11.0" remote="github" />  <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44"  />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
   <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="lx" revision="cm-11.0" />
@@ -464,6 +463,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="kk44" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" revision="cm-11.0" remote="github" />
   <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
@@ -615,6 +615,7 @@
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
 
 <!-- Additional vendors -->
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" revision="cm-11.0" remote="github" />
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-11.0" />
@@ -622,6 +623,9 @@
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-11.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
+  
+<!-- Additional kernel -->
+  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" revision="3.0.101" remote="github" />  
 
 <!-- Add Support for S4 Active -->
   <project path="device/samsung/jactiveltexx" name="spegelius/android_device_samsung_jactivelte" remote="github" revision="cm-11.0" />
