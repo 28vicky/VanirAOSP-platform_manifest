@@ -17,8 +17,8 @@ case $1 in
     ;;
     codina|janice)
         export remote="github"
-        export remoterevision="3.0.101"
-        export kernelsource="TeamCanjica/Samsung_STE_Kernel"
+        export remoterevision="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
     ;;
     codinalte)
         export remote="github"
@@ -127,5 +127,10 @@ case $1 in
         export remote="github"
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
+    ;;
+    ville|evita|jewel|m4)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="EthanJ99/kernel_htc_msm8960"
     ;;
 esac
