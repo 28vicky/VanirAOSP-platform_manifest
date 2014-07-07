@@ -23,7 +23,7 @@
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
-          fetch="git://android.git.linaro.org/" />
+          fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="horn3t"
           fetch="https://github.com/horn3t/" />
   <remote  name="lx"
@@ -59,7 +59,7 @@
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="kk44" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="device/htc/m4" name="android_device_htc_m4" />
+  <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="kk44" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="kk44" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
@@ -67,7 +67,8 @@
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="kk44" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="kk44" />
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" revision="kk44" />
-  <project path="device/htc/ville" name="android_device_htc_ville" />
+  <project path="device/htc/ville" name="EthanJ99/device_htc_ville" remote="github" revision="kk44" />
+  <project path="device/htc/evita" name="EthanJ99/device_htc_evita" remote="github" revision="kk44" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="kk44" />
@@ -86,6 +87,8 @@
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="kk44" />
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
+  <project path="device/motorola/falcon" name="EthanJ99/device_motorola_falcon" remote="github" revision="kk44" />
+  <project path="device/motorola/msm8226-common" name="EthanJ99/device_motorola_msm8226-common" remote="github" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="kk44" />
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
@@ -101,7 +104,7 @@
   <project path="device/samsung/codina" name="Team-Exhibit/android_device_samsung_codina" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
-  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44-mokee" groups="d710" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" groups="d710" />
   <project path="device/samsung/d710-common" name="MoKee/android_device_samsung_d710-common" remote="github" revision="kk_mkt" groups="d710" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" />
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" groups="ste"  />
@@ -111,7 +114,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
-  <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" revision="cm-11.0" remote="github" />
+  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
@@ -133,8 +136,8 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" revision="cm-11.0" remote="github" />
-  <project path="device/semc/msm7x30-common" name="LegacyXperia/android_device_semc_msm7x30-common" remote="lx" revision="cm-11.0" />
+  <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
+  <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44"  />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
   <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="lx" revision="cm-11.0" />
@@ -147,12 +150,13 @@
   <project path="device/semc/urushi" name="LegacyXperia/android_device_semc_urushi" remote="lx" revision="cm-11.0" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/nicki" name="nolinuxnoparty/android_device_sony_nicki" remote="github" revision="cm-11.0" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
-  <project path="device/sony/rhine-common" name="CyanogenMod/android_device_sony_rhine-common" remote="github" revision="cm-11.0" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
@@ -461,7 +465,6 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="kk44" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
-  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" revision="cm-11.0" remote="github" />
   <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
@@ -477,7 +480,6 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="kk44" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="kk44" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="kk44" />
-  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" revision="master" remote="github" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="kk44" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="kk44" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
@@ -610,11 +612,10 @@
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="lx" revision="cm-11.0" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="kk44" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
 
 <!-- Additional vendors -->
-  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" revision="cm-11.0" remote="github" />
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="github" revision="cm-11.0" />
@@ -623,9 +624,6 @@
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
 
-<!-- Additional kernel -->
-  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" revision="3.0.101" remote="github" />
-  
 <!-- Add Support for S4 Active -->
   <project path="device/samsung/jactiveltexx" name="spegelius/android_device_samsung_jactivelte" remote="github" revision="cm-11.0" />
   <project path="device/samsung/jactivelte-common" name="spegelius/android_device_samsung_jactivelte-common" remote="github" revision="cm-11.0" />
