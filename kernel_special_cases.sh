@@ -15,7 +15,7 @@ case $1 in
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
     ;;
-    codina|janice)
+    janice)
         export remote="github"
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
@@ -28,7 +28,7 @@ case $1 in
     d710)
         export remote="github"
         export remoterevision="cm-11.0"
-        export kernelsource="mtb3000gt/CM_android_kernel_samsung_smdk4412"
+        export kernelsource="CentauriROM/CM_android_kernel_samsung_smdk4412"
     ;;
     d80*|ls980|vs980)
         export remote="vanir"
@@ -57,11 +57,6 @@ case $1 in
         export remote="github"
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
-    ;;
-    grouper)
-        export remote="github"
-        export remoterevision="kk_mr1"
-        export kernelsource="faux123/Nexus-grouper"
     ;;
     mako)
         export remote="github"
@@ -99,9 +94,9 @@ case $1 in
         export kernelsource="xboxfanj/android_kernel_htc_msm8974"
     ;;
     nicki)
-         export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
-         export remote="github"
-         export remoterevision="cm-11.0" # thanks for both superficially renaming your repo, and getting the revision wrong. win.
+         export kernelsource="kernel_sony_msm8x27"
+         export remote="vanir"
+         export remoterevision="kk44"
      ;;
     p880)
         export remote="cm"
@@ -115,8 +110,8 @@ case $1 in
     ;;
     taoshan)
         export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="freexperia/android_kernel_sony_msm8930"
+        export remoterevision="android-4.4"
+        export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
     tf700t)
         export remote="vanir"
@@ -128,9 +123,17 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    ville|evita|jewel|m4)
+    ville|evita|jewel)
         export remote="github"
         export remoterevision="kk44"
-        export kernelsource="EthanJ99/kernel_htc_msm8960"
+        export kernelsource="cannondalev2000/kernel_htc_msm8960"
+    ;;
+    m4)
+        export kernelsource="android_kernel_htc_msm8960"
+    ;;
+    falcon)
+        export remote="github"
+        export remoterevision="kk44"
+        export kernelsource="cannondalev2000/kernel_motorola_msm8226"
     ;;
 esac
