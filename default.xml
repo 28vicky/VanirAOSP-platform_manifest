@@ -90,13 +90,12 @@
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
   <project path="device/motorola/falcon" name="cannondalev2000/device_motorola_falcon" remote="github" revision="kk44" />
-  <project path="device/motorola/msm8226-common" name="cannondalev2000/device_motorola_msm8226-common" remote="github" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="kk44" />
   <project path="device/motorola/moto_msm8960_jbbl" name="android_device_motorola_moto_msm8960_jbbl" device="msm8960_jbbl" />
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
-  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="kk44" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="kk44" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="kk44" />
@@ -119,6 +118,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
+  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
@@ -138,6 +138,7 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
   <project path="device/semc/msm7x30-common" name="device_semc_msm7x30-common" remote="vanir" revision="kk44"  />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="lx" revision="cm-11.0" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="lx" revision="cm-11.0" />
